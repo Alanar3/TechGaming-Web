@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechGaming</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container-fluid px-4 py-2">
+      <a class="navbar-brand fs-4 fw-bold text-gradient" href="index.html">TechGaming</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item">
+            <a class="nav-link nav-underline" href="videojuegos.html">Videojuegos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-underline" href="tecnologia.html">Tecnología</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide my-4 container carousel" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/videojuegos.jpg" class="d-block w-100"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/consolas_1.jpg" class="d-block w-100"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/rtx.jpg" class="d-block w-100"/>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <section class="container">
+    <h2 class="text-center mb-4 fade-up">Noticias Destacadas</h2>
+    <div class="news-grid">
+      <div class="card-news">
+        <img src="img/qualcomm_ia.jpg" alt="Qualcomm IA" />
+        <div class="card-body">
+          <h2 class="card-title">Qualcomm impulsa la era de PCs con IA</h2>
+          <p class="card-text">Durante Computex 2025, Qualcomm presentó avances en inteligencia artificial, destacando su colaboración con Nvidia y Microsoft para desarrollar PCs con IA integrada.</p>
+          <a href="https://cadenaser.com/nacional/2025/05/19/qualcomm-presume-de-la-nueva-era-de-los-ordenadores-con-ia-en-la-mayor-feria-de-informatica-del-mundo-cadena-ser/" class="btn btn-primary" target="_blank">Leer más</a>
+        </div>
+      </div>
+      <div class="card-news">
+        <img src="img/google_io_2025.jpg" alt="Google I/O 2025" />
+        <div class="card-body">
+          <h2 class="card-title">Google I/O 2025: Enfoque en IA y Android 16</h2>
+          <p class="card-text">El evento anual de Google se celebra hoy, con expectativas de anuncios sobre modelos de IA, Android 16 y mejoras en el motor de búsqueda.</p>
+          <a href="https://los40.com/2025/05/20/hoy-tienes-una-cita-con-el-google-io-2025-te-decimos-cuando-y-donde/" class="btn btn-primary" target="_blank">Leer más</a>
+        </div>
+      </div>
+      <div class="card-news">
+        <img src="img/nvidia_ia.jpg" alt="Nvidia IA" />
+        <div class="card-body">
+          <h2 class="card-title">Nvidia presenta superordenador de bolsillo</h2>
+          <p class="card-text">En Computex 2025, Nvidia reveló avances en IA, incluyendo el DGX Spark, un superordenador compacto, y nuevas tecnologías para robótica y vehículos autónomos.</p>
+          <a href="https://cadenaser.com/nacional/2025/05/19/un-superordenador-de-bolsillo-robotica-y-mucha-ia-nvidia-presenta-las-novedades-del-futuro-cadena-ser/" class="btn btn-primary" target="_blank">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="text-center mb-4 fade-up">Últimos Videojuegos</h2>
+    <div class="games-grid">
+      <div class="card-game">
+        <img src="img/gta6.jpg" alt="GTA 6" />
+        <div class="card-body">
+          <h2 class="card-title">GTA 6</h2>
+          <p class="card-desc">El regreso de la saga más icónica con un mapa colosal y realismo nunca antes visto.</p>
+          <p class="card-info"><strong>Año:</strong> 2026 | <strong>Género:</strong> Mundo abierto | <strong>Dev:</strong> Rockstar Games</p>
+          <p class="card-info"><strong>Plataformas:</strong><br>
+            <img src="img/pc.png" alt="PC" class="platform-logo" />
+            <img src="img/xbox.png" alt="Xbox" class="platform-logo" />
+            <img src="img/playstation.png" alt="PlayStation" class="platform-logo" />
+          </p>
+        </div>
+      </div>
+      <div class="card-game">
+        <img src="img/doom_dark_ages.jpg" alt="DOOM: The Dark Ages" />
+        <div class="card-body">
+          <h2 class="card-title">DOOM: The Dark Ages</h2>
+          <p class="card-desc">Precuela medieval del icónico FPS con brutalidad demoníaca y acción visceral.</p>
+          <p class="card-info"><strong>Año:</strong> 2025 | <strong>Género:</strong> FPS | <strong>Dev:</strong> id Software</p>
+          <p class="card-info"><strong>Plataformas:</strong><br>
+            <img src="img/pc.png" alt="PC" class="platform-logo" />
+            <img src="img/xbox.png" alt="Xbox" class="platform-logo" />
+            <img src="img/playstation.png" alt="PlayStation" class="platform-logo" />
+          </p>
+        </div>
+      </div>
+      <div class="card-game">
+        <img src="img/oblivion_remastered.jpg" alt="Oblivion Remastered" />
+        <div class="card-body">
+          <h2 class="card-title">The Elder Scrolls IV: Oblivion Remastered</h2>
+          <p class="card-desc">Clásico RPG renovado con gráficos modernos y mundos expansivos por explorar.</p>
+          <p class="card-info"><strong>Año:</strong> 2025 | <strong>Género:</strong> RPG | <strong>Dev:</strong> Bethesda</p>
+          <p class="card-info"><strong>Plataformas:</strong><br>
+            <img src="img/pc.png" alt="PC" class="platform-logo" />
+            <img src="img/xbox.png" alt="Xbox" class="platform-logo" />
+            <img src="img/playstation.png" alt="PlayStation" class="platform-logo" />
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center">
+    <p class="mb-0">&copy; 2025 TechGaming. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
